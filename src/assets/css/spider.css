@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+.container{
+    background: darkgoldenrod;
+    height: 400px;
+    width: 228px;
+}
+
+.spider{
+    animation: 6s ease-in-out 2s spider-move infinite;
+    background: #110D04;
+    border-radius: 50%;
+    height: 40px;
+    left: 80px;
+    margin: 40px 0 0 0;
+    position: absolute;
+    top: 50px;
+    width: 50px;
+}
+.spider:before{
+    content: "";
+    background: #AAAAAA;
+    height: 320px;
+    left: 50%;
+    position: absolute;
+    top: -320px;
+    width: 1px;
+}
+.spider .eyes{
+    background: #FFFFFF;
+    border-radius: 50%;
+    height: 14px;
+    position: absolute;
+    top: 16px;
+    width: 12px;
+}
+.spider .eyes:after{
+    border-radius: 50%;
+    background: black;
+    content: "";
+    height: 5px;
+    left: 4px;
+    position: absolute;
+    top: 6px;
+    width: 5px;
+}
+.spider .eyes.left{
+    left: 14px;
+}
+.spider .eyes.right{
+    right: 14px;
+}
+.spider .legs{
+    border: 2px solid;
+    border-color: #110D04 transparent transparent transparent;
+    border-radius: 50%/24px 24px 0 0;
+    height: 24px;
+    position: absolute;
+    width: 34px;
+}
+.spider .legs.left{
+    animation: 1s ease-in 0s legs-wriggle-left infinite;
+    left: -20px;
+    transform-origin: top right;
+    transform: rotate(10deg);
+}
+.spider .legs.right{
+    animation: 1s ease-in 0s legs-wriggle-right infinite;
+    right: -20px;
+    transform-origin: top left;
+    transform: rotate(-10deg);
+}
+.spider .legs.two{
+    top: 7px;
+}
+.spider .legs.left.two{
+    animation: 1s ease-in 0.8s legs-wriggle-left infinite;
+    left: -25px;
+}
+.spider .legs.right.two{
+    animation: 1s ease-in 0.4s legs-wriggle-right infinite;
+    right: -25px;
+}
+.spider .legs.three{
+    top: 15px;
+}
+.spider .legs.left.three{
+    animation: 1s ease-in 0.2s legs-wriggle-left infinite;
+    left: -28px;
+}
+.spider .legs.right.three{
+    animation: 1s ease-in 0.7s legs-wriggle-right infinite;
+    right: -28px;
+}
+.spider .legs.four{
+    top: 23px;
+}
+.spider .legs.left.four{
+    animation: 1s ease-in 0.4s legs-wriggle-left infinite;
+    left: -25px;
+}
+.spider .legs.right.four{
+    animation: 1s ease-in 0.3s legs-wriggle-right infinite;
+    right: -25px;
+}
+
+@keyframes legs-wriggle-left{
+    0%, 100%{transform: rotate(10deg);}
+    25%, 75%{transform: rotate(5deg);}
+    50%{transform: rotate(15deg);}
+}
+
+@keyframes legs-wriggle-right{
+    0%, 100%{transform: rotate(-10deg);}
+    25%, 75%{transform: rotate(-5deg);}
+    50%{transform: rotate(-15deg);}
+}
+
+@keyframes spider-move {
+    from {top: 50px;}
+    50% {top: 230px;}
+    to {top: 50px;}
+}
