@@ -6,7 +6,7 @@ Cette toolbox est faite pour vous !
 ## Araignée
 Une animation d'araignée qui monte et descend sur un fil tout en agitant ses nombreuses pattes avec une toile en coin.
 
-![araignée](E:\Development\Sites\halloween-overlay\examples\spider.png)
+![araignée](examples/spider.png)
 
 ### Comment l'utiliser ?
 - Sous OBS Studio, ajoutez une source de type navigateur dans votre scène.
