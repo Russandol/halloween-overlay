@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+
+.container{
+    background: url("../img/scene/layer_2.png");
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+    z-index: 1;
+}
+
+.cloud{
+    position: absolute;
+    z-index: 2;
+}
+.cloud-1{
+    animation: 7s ease-in-out cloud-1-animation infinite;
+    animation-direction: alternate;
+    background: url("../img/scene/elements/clouds/cloud_01.png");
+    height: 14px;
+    left: 1116px;
+    top: 230px;
+    width: 95px;
+}
+.cloud-2{
+    animation: 10s ease-in-out cloud-2-animation infinite;
+    animation-direction: alternate;
+    background: url("../img/scene/elements/clouds/cloud_02.png");
+    height: 45px;
+    left: 1265px;
+    top: 256px;
+    width: 196px;
+}
+.cloud-3{
+    animation: 15s ease-in-out cloud-3-animation infinite;
+    animation-direction: alternate;
+    background: url("../img/scene/elements/clouds/cloud_03.png");
+    height: 29px;
+    left: 868px;
+    top: 111px;
+    width: 96px;
+}
+.cloud-4{
+    animation: 7s ease-in-out cloud-4-animation infinite;
+    animation-direction: alternate;
+    background: url("../img/scene/elements/clouds/cloud_04.png");
+    height: 13px;
+    left: 1482px;
+    top: 98px;
+    width: 96px;
+}
+.cloud-5{
+    animation: 15s ease-in-out cloud-5-animation infinite;
+    animation-direction: alternate;
+    background: url("../img/scene/elements/clouds/cloud_05.png");
+    height: 4px;
+    left: 972px;
+    top: 263px;
+    width: 110px;
+}
+
+.houses img{
+    display: none;
+    height: 506px;
+    left: 411px;
+    position: absolute;
+    top: 175px;
+    width: 379px;
+    z-index: 2;
+}
+.houses img.active{
+    display: block;
+}
+
+.pumpkin{
+    position: absolute;
+    z-index: 3;
+}
+.pumpkin-1{
+    background: url("../img/scene/elements/pumpkins/pumpkin_01.png");
+    height: 131px;
+    left: 191px;
+    top: 861px;
+    width: 130px;
+}
+.pumpkin-2{
+    background: url("../img/scene/elements/pumpkins/pumpkin_02.png");
+    height: 93px;
+    left: 104px;
+    top: 929px;
+    width: 87px;
+}
+.pumpkin-3{
+    background: url("../img/scene/elements/pumpkins/pumpkin_03.png");
+    height: 119px;
+    left: 11px;
+    top: 844px;
+    width: 115px;
+}
+.pumpkin-4{
+    background: url("../img/scene/elements/pumpkins/pumpkin_04.png");
+    height: 124px;
+    left: 129px;
+    top: 787px;
+    width: 86px;
+}
+
+.tombstone{
+    position: absolute;
+    z-index: 2;
+}
+.tombstone-1{
+    background: url("../img/scene/elements/tomb_stones/tomb_stones_01.png");
+    height: 134px;
+    right: 581px;
+    top: 582px;
+    width: 115px;
+}
+.tombstone-2{
+    background: url("../img/scene/elements/tomb_stones/tomb_stones_02.png");
+    height: 148px;
+    right: 470px;
+    top: 552px;
+    width: 106px;
+}
+.tombstone-3{
+    background: url("../img/scene/elements/tomb_stones/tomb_stones_03.png");
+    height: 128px;
+    right: 319px;
+    top: 559px;
+    width: 168px;
+}
+
+.tree{
+    position: absolute;
+    z-index: 2;
+}
+.tree-left{
+    background: url("../img/scene/elements/trees/tree_01.png");
+    height: 802px;
+    left: 0;
+    top: 112px;
+    width: 489px;
+}
+.tree-right{
+    background: url("../img/scene/elements/trees/tree_02.png");
+    height: 710px;
+    right: 0;
+    top: 223px;
+    width: 342px;
+}
+
+@keyframes cloud-1-animation {
+    from {left: 1116px;}
+    to {left: 1268px;}
+}
+@keyframes cloud-2-animation {
+    from {left: 1265px;}
+    to {left: 961px;}
+}
+@keyframes cloud-3-animation {
+    from {left: 868px;}
+    to {left: 1156px;}
+}
+@keyframes cloud-4-animation {
+    from {left: 1482px;}
+    to {left: 1364px;}
+}
+@keyframes cloud-5-animation {
+    from {left: 972px;}
+    to {left: 1130px;}
+}
