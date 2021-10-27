@@ -9,6 +9,15 @@ Pour le moment seul les nuages et la maison sont animés.
 
 ![layer](examples/layer.png)
 
+### Comment l'utiliser ?
+- Sous OBS Studio, ajoutez une source de type navigateur dans votre scène
+- Dans la fenêtre cliquez sur "Fichier local" et sélectionnez le fichier **src/scene.html**
+- Indiquez 1920 en guise de largeur et 1080 en guise de hauteur
+- Validez sur "ok"
+
+### Sources
+Encore merci à Lodiloee pour la composition graphique !
+
 ## Araignée
 Une animation d'araignée qui monte et descend sur un fil tout en agitant ses nombreuses pattes avec une toile en coin.
 
