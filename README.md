@@ -1,7 +1,13 @@
 # Halloween-overlay
-
 Envie d'égayer votre live pendant la période d'Halloween.
 Cette toolbox est faite pour vous !
+
+## Layer
+Ce layer animé peut être utilisé en guise d'écran d'intro / d'attente / de fin de stream.
+
+Pour le moment seul les nuages et la maison sont animés.
+
+![layer](examples/layer.png)
 
 ## Araignée
 Une animation d'araignée qui monte et descend sur un fil tout en agitant ses nombreuses pattes avec une toile en coin.
